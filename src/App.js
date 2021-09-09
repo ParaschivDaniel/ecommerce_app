@@ -61,6 +61,7 @@ const mapStateToProps = ({ user }) => ({
   currentUser: user.currentUser
 })
 
+// Dispatch the actions to the store
 const mapDispatchToProps = dispatch => ({
   setCurrentUser: user => dispatch(setCurrentUser(user))
 })
